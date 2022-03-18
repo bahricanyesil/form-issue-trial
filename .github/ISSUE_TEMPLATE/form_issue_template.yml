@@ -18,6 +18,12 @@ body:
       description: "Please describe the issue with 2-3 clear sentences. What is this issue for, what's the aim of it? What you will do for this issue?"
     validations:
       required: true
+  - type: textarea
+    id: step-details
+    attributes:
+      value: "It should have these subsections (can be expanded more in the future):\n1- Requirements:\n2-Questions About Requirements\n3-Similar Projects\n4-Base Features"
+      label: Step Details
+      description: "This is an optional field. What will be the steps/actions you will perform?"
   - type: input
     id: deadline
     attributes:
