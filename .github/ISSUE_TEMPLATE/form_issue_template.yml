@@ -23,10 +23,9 @@ body:
     attributes:
       value: | 
               Steps that will be performed:
-              1. Requirements will be created
-              2. Questions about requirements will be formed
-              3. Similar projects will be researched
-              4. Base features will be determined
+              1. ...
+              2. ...
+              3. ...
       label: Step Details
       description: "This is an optional field. What will be the steps/actions you will perform?"
   - type: textarea
