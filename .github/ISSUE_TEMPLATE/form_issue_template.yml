@@ -81,6 +81,7 @@ body:
         * The person who will close an issue should put a final comment before closing it.
         * All progress indicator labels (such as status-in progress) should be removed (or be replaced with completed indicator labels) before closing an issue.
         * Dependent issues should be linked by writing #{issue_number}. With the help of this notation, issues will have reference info under themselves to the other related ones.
+        * If you don't use some form fields, do not forget to delete them after the issue is created.
 
         ---
         
