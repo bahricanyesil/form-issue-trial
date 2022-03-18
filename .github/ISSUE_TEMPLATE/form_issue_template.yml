@@ -54,10 +54,6 @@ body:
         - Hasan Can Erol
         - Ahmet Yiğit Özdoğan
         - Ecenur Sezer
-        - Someone Else
-        - No Reviewer
-    validations:
-      required: true
   - type: input
     id: review-deadline
     attributes:
@@ -66,14 +62,18 @@ body:
       placeholder: "19.03.2022 - Saturday - 23:59"
     validations:
       required: true
-  - type: textarea
-    id: steps
+  - type: markdown
     attributes:
-      label: Steps to reproduce
-      description: Which steps do we need to take to reproduce this error?
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: If applicable, provide relevant log output. No need for backticks here.
-      render: shell
+      value: |
+        ⚠️ Do Not Forget These While Managing the Issue! ⚠️
+        
+        * You should add the progress changes, updates, etc. to the issue as comments.
+        * You should track the suggestions, comments under the issue and respond to them if necessary.
+        * Every issue should be labeled. You should select suitable labels before creating the issue. The 'status-new' and 'priority-medium' labels are added as default. You can also change/remove them if you need.
+        * The person who will close an issue should put a final comment before closing it.
+        * All progress indicator labels (such as status-in progress) should be removed (or be replaced with completed indicator labels) before closing an issue.
+        * Dependent issues should be linked by writing #{issue_number}. With the help of this notation, issues will have reference info under themselves to the other related ones.
+
+        ---
+        
+        Hoping you read the above items and didn't miss any of them. Thank you!
