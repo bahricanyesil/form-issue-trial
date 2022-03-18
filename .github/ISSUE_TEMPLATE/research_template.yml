@@ -74,6 +74,16 @@ body:
       placeholder: "19.03.2022 - Saturday - 23:59"
     validations:
       required: true
+  - type: checkboxes
+    id: todo-checkboxes
+    attributes:
+      label: Final To-Dos
+      description: "Please check the steps mentioned below after you did. You can remove the ones that will not be performed for this issue."
+      options:
+        - label: Collected the results of the researches via the mentioned channel.
+        - label: Summarized the research results and created a separate wiki page for it.
+        - label: Added and linked the newly created wiki page under the "research" title of the sidebar.
+        - label: Added and linked the newly created wiki page under the "research" title of the main wiki page.
   - type: markdown
     attributes:
       value: |
