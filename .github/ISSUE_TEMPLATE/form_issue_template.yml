@@ -1,22 +1,25 @@
-name: Bug
-description: File a bug report
+name: General
+description: It can be used for any issue since it contains the general requirements
 body:
   - type: markdown
     attributes:
       value: |
-        Before opening a bug report, please search for the behaviour in the existing issues. 
+        Before opening an issue, please be sure that no one opened the same issue to avoid duplicates. 
         
         ---
         
-        Thank you for taking the time to file a bug report. To address this bug as fast as possible, we need some information.
-  - type: input
-    id: os
+        Thank you for using the issue template! Please don't forget to use it for the issues that you will create in the future too.
+  - type: dropdown
+    id: reviewer
     attributes:
-      label: Operating system
-      description: "Which operating system do you use? Please provide the version as well."
-      placeholder: "macOS Big Sur 11.5.2"
+      label: Reviewer
+      description: Who will review this issue? Please select the reviewer from the list below.
+      options:
+        - @bahricanyesil
+        - @egemenatik
+        - Someone Else
     validations:
-      required: true  
+      required: true
   - type: input
     id: laravel
     attributes:
@@ -31,17 +34,6 @@ body:
       label: PHP Version
       description: "Please provide the full PHP version that is powering Tinkerwell."
       placeholder: "PHP 8.0.7, built: Jun  4 2021 01:50:04"
-    validations:
-      required: true
-  - type: dropdown
-    id: location
-    attributes:
-      label: Project Location
-      description: Where is the project located?
-      options:
-        - Local
-        - Remote
-        - Somewhere else (please specify in the description!)
     validations:
       required: true
   - type: textarea
