@@ -15,7 +15,7 @@ body:
       label: Reviewer
       description: Who will review this issue? Please select the reviewer from the list below.
       options:
-        - @bahricanyesil
+        - bahricanyesil
         - @egemenatik
         - Someone Else
     validations:
