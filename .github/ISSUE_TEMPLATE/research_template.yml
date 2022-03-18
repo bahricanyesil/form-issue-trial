@@ -72,8 +72,6 @@ body:
       label: Deadline for the Review
       description: "Please provide a deadline for the review process."
       placeholder: "19.03.2022 - Saturday - 23:59"
-    validations:
-      required: true
   - type: checkboxes
     id: todo-checkboxes
     attributes:
