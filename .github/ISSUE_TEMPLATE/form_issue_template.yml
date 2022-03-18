@@ -24,6 +24,12 @@ body:
       value: "It should have these subsections (can be expanded more in the future):\n\n1. Requirements:\n2. Questions About Requirements\n3. Similar Projects\n4. Base Features"
       label: Step Details
       description: "This is an optional field. What will be the steps/actions you will perform?"
+  - type: textarea
+    id: final-actions
+    attributes:
+      value: "After I created the templates, I will both share them under this issue as comments and send them to our TA (Egemen İşgüder) to add them to the GitHub settings."
+      label: Final Actions
+      description: "Describe the final actions that will be taken after the task of the issue is done and issue is ready to close."
   - type: input
     id: deadline
     attributes:
