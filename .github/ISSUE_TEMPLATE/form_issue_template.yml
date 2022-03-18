@@ -1,5 +1,6 @@
 name: General
 description: It can be used for any issue since it contains the general requirements
+labels: status-new,priority-medium
 body:
   - type: markdown
     attributes:
@@ -9,31 +10,40 @@ body:
         ---
         
         Thank you for using the issue template! Please don't forget to use it for the issues that you will create in the future too.
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline of the Issue
+      description: "Please provide a deadline for the issue."
+      placeholder: "19.03.2022 - Saturday - 23:59"
+    validations:
+      required: true
   - type: dropdown
     id: reviewer
     attributes:
       label: Reviewer
-      description: Who will review this issue? Please select the reviewer from the list below.
+      description: "Who will review this issue? Please select the reviewer from the list below."
       options:
         - Bahrican Yesil
         - Egemen Atik
+        - Altay Acar
+        - Ezgi Aysel Batı
+        - Muhammed Enes Sürmeli
+        - Onur Kömürcü
+        - Mehmet Batuhan Çelik
+        - Hasan Can Erol
+        - Ahmet Yiğit Özdoğan
+        - Ecenur Sezer
         - Someone Else
+        - No Reviewer
     validations:
       required: true
   - type: input
-    id: laravel
+    id: review-deadline
     attributes:
-      label: Laravel Version
-      description: "Please provide the full Laravel version of your project."
-      placeholder: "v8.6.1"
-    validations:
-      required: true
-  - type: input
-    id: php
-    attributes:
-      label: PHP Version
-      description: "Please provide the full PHP version that is powering Tinkerwell."
-      placeholder: "PHP 8.0.7, built: Jun  4 2021 01:50:04"
+      label: Deadline for Review
+      description: "Please provide a deadline for the review process."
+      placeholder: "19.03.2022 - Saturday - 23:59"
     validations:
       required: true
   - type: textarea
