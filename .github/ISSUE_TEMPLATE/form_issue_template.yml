@@ -21,7 +21,12 @@ body:
   - type: textarea
     id: step-details
     attributes:
-      placeholder: "It should have these subsections (can be expanded more in the future):\n\n1. Requirements:\n2. Questions About Requirements\n3. Similar Projects\n4. Base Features"
+      value: | 
+              Steps that will be performed:
+              1. Requirements:
+              2. Questions About Requirements
+              3. Similar Projects
+              4. Base Features
       label: Step Details
       description: "This is an optional field. What will be the steps/actions you will perform?"
   - type: textarea
