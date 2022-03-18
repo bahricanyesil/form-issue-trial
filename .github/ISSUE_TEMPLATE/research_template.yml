@@ -26,12 +26,22 @@ body:
       description: "How and where will be the results of the research are gathered together? After the research is done, where will it be summarized?"
     validations:
       required: true
-  - type: textarea
-    id: final-actions
+  - type: checkboxes
+    id: researcher-checkboxes
     attributes:
-      placeholder: "After I created the templates, I will both share them under this issue as comments and send them to our TA (Egemen İşgüder) to add them to the GitHub settings."
-      label: Final Actions
-      description: "Describe the final actions that will be taken after the task of the issue is done and issue is ready to close."
+      label: Researchers
+      description: "Please use the checkbox below to track the researchers and their progress statuses. You can review the people who will not perform any research."
+      options:
+        - label: Bahrican Yesil
+        - label: Egemen Atik
+        - label: Altay Acar
+        - label: Ezgi Aysel Batı
+        - label: Muhammed Enes Sürmeli
+        - label: Onur Kömürcü
+        - label: Mehmet Batuhan Çelik
+        - label: Hasan Can Erol
+        - label: Ahmet Yiğit Özdoğan
+        - label: Ecenur Sezer
   - type: input
     id: deadline
     attributes:
