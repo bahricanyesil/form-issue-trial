@@ -15,8 +15,8 @@ body:
       label: Reviewer
       description: Who will review this issue? Please select the reviewer from the list below.
       options:
-        - [Bahrican Yesil](https://github.com/bahricanyesil/form-issue-trial/blob/main/.github/ISSUE_TEMPLATE/form_issue_template.yml)
-        - @egemenatik
+        - Bahrican Yesil
+        - Egemen Atik
         - Someone Else
     validations:
       required: true
