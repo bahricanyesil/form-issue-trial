@@ -13,7 +13,7 @@ body:
   - type: textarea
     id: issue-description
     attributes:
-      value: "I will be creating some issue templates to ensure unity among the team members and not miss some important steps that will make the issue description clearer. We have discussed this in our second and third meetings and decided that it will be helpful for the issue creators to directly fill the required sections without thinking about 'what is required'."
+      placeholder: "I will be creating some issue templates to ensure unity among the team members and not miss some important steps that will make the issue description clearer. We have discussed this in our second and third meetings and decided that it will be helpful for the issue creators to directly fill the required sections without thinking about 'what is required'."
       label: Issue Description
       description: "Please describe the issue with 2-3 clear sentences. What is this issue for, what's the aim of it? What you will do for this issue?"
     validations:
@@ -21,13 +21,13 @@ body:
   - type: textarea
     id: step-details
     attributes:
-      value: "It should have these subsections (can be expanded more in the future):\n\n1. Requirements:\n2. Questions About Requirements\n3. Similar Projects\n4. Base Features"
+      placeholder: "It should have these subsections (can be expanded more in the future):\n\n1. Requirements:\n2. Questions About Requirements\n3. Similar Projects\n4. Base Features"
       label: Step Details
       description: "This is an optional field. What will be the steps/actions you will perform?"
   - type: textarea
     id: final-actions
     attributes:
-      value: "After I created the templates, I will both share them under this issue as comments and send them to our TA (Egemen İşgüder) to add them to the GitHub settings."
+      placeholder: "After I created the templates, I will both share them under this issue as comments and send them to our TA (Egemen İşgüder) to add them to the GitHub settings."
       label: Final Actions
       description: "Describe the final actions that will be taken after the task of the issue is done and issue is ready to close."
   - type: input
