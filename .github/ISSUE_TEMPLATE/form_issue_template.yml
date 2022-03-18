@@ -13,11 +13,7 @@ body:
   - type: textarea
     id: issue-description
     attributes:
-      value: |
-      1.
-      2.
-      3.
-      ...
+      value: "I will be creating some issue templates to ensure unity among the team members and not miss some important steps that will make the issue description clearer. We have discussed this in our second and third meetings and decided that it will be helpful for the issue creators to directly fill the required sections without thinking about 'what is required'."
       label: Issue Description
       description: "Please describe the issue with 2-3 clear sentences. What is this issue for, what's the aim of it? What you will do for this issue?"
     validations:
