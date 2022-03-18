@@ -1,4 +1,4 @@
-name: General
+name: Generic Template
 description: It can be used for any issue since it contains the general requirements
 labels: status-new,priority-medium
 body:
@@ -10,6 +10,18 @@ body:
         ---
         
         Thank you for using the issue template! Please don't forget to use it for the issues that you will create in the future too.
+  - type: textarea
+    id: issue-description
+    attributes:
+      value: |
+      1.
+      2.
+      3.
+      ...
+      label: Issue Description
+      description: "Please describe the issue with 2-3 clear sentences. What is this issue for, what's the aim of it? What you will do for this issue?"
+    validations:
+      required: true
   - type: input
     id: deadline
     attributes:
@@ -41,16 +53,9 @@ body:
   - type: input
     id: review-deadline
     attributes:
-      label: Deadline for Review
+      label: Deadline for the Review
       description: "Please provide a deadline for the review process."
       placeholder: "19.03.2022 - Saturday - 23:59"
-    validations:
-      required: true
-  - type: textarea
-    id: bug-description
-    attributes:
-      label: Bug description
-      description: What happened?
     validations:
       required: true
   - type: textarea
