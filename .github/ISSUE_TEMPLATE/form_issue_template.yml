@@ -5,11 +5,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before opening an issue, please be sure that no one opened the same issue to avoid duplicates. 
-        
-        ---
-        
-        Thank you for using the issue template! Please don't forget to use it for the issues that you will create in the future too.
+          🚀 Thank you for using the issue template! Please don't forget to use it for the issues that you will create in the future too.
+          
+          ---
+          
+          Before opening an issue, please be sure that no one opened the same issue to avoid duplicates.     
   - type: textarea
     id: issue-description
     attributes:
@@ -23,10 +23,10 @@ body:
     attributes:
       value: | 
               Steps that will be performed:
-              1. Requirements:
-              2. Questions About Requirements
-              3. Similar Projects
-              4. Base Features
+              1. Requirements will be created
+              2. Questions about requirements will be formed
+              3. Similar projects will be researched
+              4. Base features will be determined
       label: Step Details
       description: "This is an optional field. What will be the steps/actions you will perform?"
   - type: textarea
@@ -74,6 +74,8 @@ body:
         
         ⚠️ Do Not Forget These While Managing the Issue! ⚠️
         
+        * The title and the description of the issue should be clear and long enough to be descriptive.
+        * Please try to no assign the issue more than 2 people unless there is an exceptional situation.
         * You should add the progress changes, updates, etc. to the issue as comments.
         * You should track the suggestions, comments under the issue and respond to them if necessary.
         * Every issue should be labeled. You should select suitable labels before creating the issue. The 'status-new' and 'priority-medium' labels are added as default. You can also change/remove them if you need.
