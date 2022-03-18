@@ -65,6 +65,8 @@ body:
   - type: markdown
     attributes:
       value: |
+        --- 
+        
         ⚠️ Do Not Forget These While Managing the Issue! ⚠️
         
         * You should add the progress changes, updates, etc. to the issue as comments.
