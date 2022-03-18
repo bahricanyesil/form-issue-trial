@@ -24,8 +24,8 @@ body:
       value: "Results of each individual research are collected on our Discord channel. After each initial research is done and the findings are gathered on our Discord channel, I will summarize them and create a separate wiki page for the research results."
       label: Method to Gather Information
       description: "How and where will be the results of the research are gathered together? After the research is done, where will it be summarized?"
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: final-actions
     attributes:
