@@ -1,7 +1,7 @@
 name: Generic Template
 description: It can be used for any issue since it contains the general requirements
 labels: [status-new,priority-medium]
-assignees: ['self-assignee']
+assignees: ['bahricanyesil']
 body:
   - type: markdown
     attributes:
